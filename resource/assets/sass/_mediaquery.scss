@@ -1,0 +1,24 @@
+/*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width: 480px) {
+  .hide--mobile {
+    display: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .navbar .navbar__logo {
+    margin-left: 10px;
+  }
+  .video .video__box {
+    width: auto;
+  }
+  .title span {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .hide--desktop {
+    display: none;
+  }
+}

@@ -1,0 +1,43 @@
+.searchBox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1000px;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.98);
+  transition: all 0.4s linear;
+  z-index: 3;
+
+  .searchInput {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    border-bottom: 3px solid $primary-black;
+    color: $secondary-dark-grey;
+    font-size: 28px;
+    padding: 4px;
+    display: none;
+  }
+}
+
+.searchClose {
+  position: fixed;
+  color: $primary-black;
+  top: 20px;
+  right: 50px;
+  font-size: 33px;
+  cursor: pointer;
+  display: none;
+  z-index: 4;
+  transform: rotate(0deg);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.searchOpen {
+  height: 4000px;
+  width: 4000px;
+}

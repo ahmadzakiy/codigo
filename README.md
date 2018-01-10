@@ -1,2 +1,13 @@
-# monokrom
-a monokrom
+## Getting Started
+
+```
+Clone Repo
+```
+
+```
+NPM Install
+```
+
+```
+NPM Start
+```

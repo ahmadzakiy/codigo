@@ -1,0 +1,67 @@
+.title {
+  margin-top: 27px;
+  span {
+    font-size: 45px;
+    color: $secondary-dark-grey;
+  }
+}
+
+.date {
+  margin-top: 24px;
+  span {
+    font-size: 16px;
+    color: $secondary-dark-grey;
+    background: $primary-white;
+    padding: 0 42px;
+  }
+
+  .date__line {
+    height: 2px;
+    border: solid 1px $secondary-light-grey;
+    margin-top: -8px;
+  }
+}
+
+.share {
+  width: 234px;
+  height: 50px;
+  background: $primary-light-grey;
+  margin-top: 39px;
+  display: inline-block;
+
+  .share__fb {
+    display: inline-block;
+    padding: 14.8px 29.7px;
+    img {
+      width: 10.5px;
+      height: 20.4px;
+    }
+  }
+  .share__twitter {
+    display: inline-block;
+    padding: 14.8px 29.7px;
+    img {
+      width: 20.3px;
+      height: 17px;
+    }
+  }
+  .share__counter {
+    display: inline-block;
+    padding: 14.8px 29.7px;
+    color: $primary-white;
+    background: $secondary-dark-grey;
+    span {
+      font-size: 16.5px;
+    }
+  }
+}
+
+.article {
+  margin-top: 49px;
+  margin-bottom: 100px;
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    color: $primary-black;
+  }
+}

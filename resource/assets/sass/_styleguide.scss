@@ -1,0 +1,54 @@
+/* Color Pallete */
+$primary-white: #ffffff;
+$primary-black: #000000;
+$primary-purple: #3023ae;
+$primary-pink: #c96dd8;
+$primary-light-grey: #d8d8d8;
+$primary-dark-grey: #232323;
+
+$secondary-light-grey: #979797;
+$secondary-dark-grey: #4b4b4b;
+
+/* Font */
+.lato--bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.lato--normal {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.lato--thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+/* Instant Classs */
+.text--center {
+  text-align: center;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

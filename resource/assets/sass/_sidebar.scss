@@ -1,0 +1,36 @@
+.sidebar {
+  margin-top: 49px;
+  width: auto;
+  height: 493px;
+  background: $primary-white;
+  border: 1px solid $secondary-dark-grey;
+
+  .popular {
+    position: absolute;
+    width: 148px;
+    height: 38px;
+    background: $secondary-dark-grey;
+    margin-top: -20px;
+    margin-left: 54px;
+    padding: 8px 13px;
+    span {
+      color: $primary-white;
+      font-size: 18px;
+    }
+  }
+
+  .box {
+    padding: 11px 15px 0;
+    .sidebar__article {
+      padding-top: 22px;
+      .sidebar__article__title {
+        font-size: 12px;
+        color: $secondary-dark-grey;
+      }
+      span {
+        font-size: 12px;
+        color: $secondary-light-grey;
+      }
+    }
+  }
+}
