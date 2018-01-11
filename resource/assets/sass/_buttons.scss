@@ -1,0 +1,131 @@
+.btn {
+  width: 129px;
+  height: 46px;
+  padding: 10px 25px;
+  font-weight: 400;
+  font-size: 16px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:disabled,
+.btn.disabled {
+  background-color: #e9edf1;
+  color: #b0b0b1;
+  pointer-events: none;
+}
+
+.btn--blue {
+  color: $primary-white;
+  background: #1991eb;
+}
+
+.btn--blue:hover,
+.btn--blue.hover {
+  background: lighten(#1991eb, 5%);
+}
+
+.btn--blue:active,
+.btn--blue.active {
+  background: darken(#1991eb, 5%);
+}
+
+.btn--green {
+  color: $primary-white;
+  background: #09c199;
+}
+
+.btn--green:hover,
+.btn--green.hover {
+  background: lighten(#09c199, 5%);
+}
+
+.btn--green:active,
+.btn--green.active {
+  background: darken(#09c199, 5%);
+}
+
+.btn--white {
+  color: $primary-black;
+  background: #ffffff;
+}
+
+.btn--white:hover,
+.btn--white.hover {
+  background: #ffffff;
+}
+
+.btn--white:active,
+.btn--white.active {
+  background: #ececec;
+}
+
+.btn--gradient {
+  color: $primary-white;
+  background-image: linear-gradient(109deg, #188e9b, #6dd7c7);
+}
+
+.btn--gradient:hover,
+.btn--gradient.hover {
+  background-image: (
+    linear-gradient(109deg, lighten(#188e9b, 5%), lighten(#6dd7c7, 5%))
+  );
+}
+
+.btn--gradient:active,
+.btn--gradient.active {
+  background-image: (
+    linear-gradient(109deg, darken(#188e9b, 5%), darken(#6dd7c7, 5%))
+  );
+}
+
+.btn--red {
+  color: $primary-white;
+  background-image: linear-gradient(to bottom, #f85359, #dc151d);
+}
+
+.btn--red:hover,
+.btn--red.hover {
+  background-image: (
+    linear-gradient(to bottom, lighten(#f85359, 5%), lighten(#dc151d, 5%))
+  );
+}
+
+.btn--red:active,
+.btn--red.active {
+  background-image: (
+    linear-gradient(to bottom, darken(#f85359, 5%), darken(#dc151d, 5%))
+  );
+}
+
+.btn--info {
+  color: $primary-white;
+  background-image: linear-gradient(to top, #1991eb, #2da1f8);
+}
+
+.btn--info:hover,
+.btn--info.hover {
+  background-image: (
+    linear-gradient(to top, lighten(#1991eb, 5%), lighten(#2da1f8, 5%))
+  );
+}
+
+.btn--info:active,
+.btn--info.active {
+  background-image: (
+    linear-gradient(to top, darken(#1991eb, 5%), darken(#2da1f8, 5%))
+  );
+}
+
+.info {
+  background: #fff;
+  color: #1c94ed;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  font-size: 13px;
+  font-weight: 700;
+}

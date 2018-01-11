@@ -1,0 +1,91 @@
+.input {
+  width: 288px;
+  height: 36px;
+  border-radius: 4px;
+  background: $primary-white;
+  padding: 8px 10px 7px 12px;
+}
+
+.input:disabled,
+.input.disabled {
+  border: solid 1px #dfe3e9;
+  background: #e9edf1;
+  pointer-events: none;
+}
+
+.input--icon {
+  width: 288px;
+  height: 36px;
+  border-radius: 4px;
+  background: $primary-white;
+  padding: 8px 10px 7px 44px;
+}
+
+.input--icon:disabled,
+.input--icon.disabled {
+  border: solid 1px #dfe3e9;
+  background: #e9edf1;
+  pointer-events: none;
+}
+
+.input--white {
+  border: solid 1px #dfe3e9;
+}
+
+.input--white:hover,
+.input--white.hover {
+  border: solid 1px #ced0da;
+}
+
+.input--white:focus,
+.input--white.focus {
+  border: solid 1px #2ea2f8;
+}
+
+.input--white.error {
+  border: solid 1px #ed1c24;
+}
+
+.input--white.success {
+  border: solid 1px #1bb934;
+}
+
+.label--error {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px 14px;
+  .fa-times {
+    color: #ed1c24;
+  }
+}
+
+.label--success {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px 14px;
+  .fa-check {
+    color: #1bb934;
+  }
+}
+
+.label--mail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 8px 14px;
+  .fa-envelope-o {
+    color: #c5d0de;
+  }
+}
+
+.label--search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px 14px;
+  .fa-search {
+    color: #c5d0de;
+  }
+}

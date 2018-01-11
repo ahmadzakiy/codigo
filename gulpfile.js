@@ -6,13 +6,6 @@ var gulp = require("gulp"),
   cleanCSS = require("gulp-clean-css"),
   webpack = require("webpack-stream");
 
-// gulp.task("sass", function() {
-//   return gulp.src("./resource/assets/sass/**/*.scss")
-//     .pipe(sass())
-//     .pipe(autoprefixer())
-//     .pipe(gulp.dest("./public/assets/css/"));
-// });
-
 gulp.task("styling", function() {
   return gulp
     .src("./resource/assets/sass/**/*.scss")
@@ -21,12 +14,6 @@ gulp.task("styling", function() {
     .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(gulp.dest("./public/assets/css/"));
 });
-
-// gulp.task("script", function() {
-//     return gulp.src("./resource/assets/js/app.js")
-//     .pipe(webpack(require("./webpack.config.js")))
-//     .pipe(gulp.dest("./public/assets/js/"));
-// });
 
 gulp.task("script", function() {
   return gulp
@@ -42,7 +29,7 @@ gulp.task("serve", function() {
       baseDir: "./public/"
     }
   });
-  gulp.watch("./resource/assets/sass/**/*.scss", ["sass"]);
+  gulp.watch("./resource/assets/sass/**/*.scss", ["styling"]);
   gulp.watch("./resource/assets/js/**/*.js", ["script"]);
 
   gulp.watch("./public/assets/css/**/*.css").on("change", browserSync.reload);

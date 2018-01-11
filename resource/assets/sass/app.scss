@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 
 @import "scaffold";
 @import "styleguide";
@@ -11,6 +12,11 @@
 @import "share";
 @import "search";
 @import "mediaquery";
+@import "buttons";
+@import "inputs";
+@import "checkbox";
+
+@import "styleguidepage";
 
 body {
   font-family: "Lato", sans-serif;
